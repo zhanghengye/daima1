@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF"
+    >
+
+    <RelativeLayout
+        android:layout_width="750px"
+        android:layout_height="128px"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/mImg5"
+            android:layout_width="13px"
+            android:layout_height="24px"
+            android:layout_marginTop="44px"
+            android:layout_marginLeft="30px"
+            android:src="@mipmap/nav_btn_back" />
+
+
+        <TextView
+            android:layout_width="125px"
+            android:layout_height="31px"
+            android:textSize="32px"
+            android:text="重置密码"
+            android:textColor="#333333"
+            android:layout_marginLeft="331px"
+            android:layout_marginTop="42px"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="235px"
+        android:layout_height="45px"
+        android:textSize="48px"
+        android:text="输入新密码"
+        android:textColor="#333333"
+        android:layout_marginTop="262px"
+        android:layout_marginLeft="60px"
+        />
+
+    <LinearLayout
+        android:layout_width="566px"
+        android:layout_height="27px"
+        android:layout_marginLeft="59px"
+        android:layout_marginTop="337px"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请为您的账号"
+            android:textColor="#999999"
+            android:textSize="27px"
+            />
+
+        <TextView
+            android:id="@+id/mText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="27px"
+            android:textColor="#FE2C49"
+            android:text="188 1122 2211"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="27px"
+            android:textColor="#999999"
+            android:text="设置一个新密码"
+            />
+
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/mPsw"
+        android:layout_width="466px"
+        android:layout_height="31px"
+        android:hint="请设置8-32位(数字+字母)的密码"
+        android:textColorHint="#ffdbdbdb"
+        android:textSize="32px"
+        android:maxLength="32"
+        android:background="@null"
+        android:layout_marginTop="490px"
+        android:layout_marginLeft="55px"/>
+
+
+
+    <View
+        android:layout_width="638px"
+        android:layout_height="2px"
+        android:background="#DADADA"
+        android:layout_marginLeft="57px"
+        android:layout_marginTop="570px"
+        />
+
+    <Button
+        android:id="@+id/mBaoCun"
+        android:layout_width="634px"
+        android:layout_height="90px"
+        android:layout_marginLeft="58px"
+        android:layout_marginTop="682px"
+        android:text="保存新密码"
+        android:textColor="#FFFFFF"
+        android:textSize="34px"
+        android:background="@drawable/anniu"
+        />
+</RelativeLayout>

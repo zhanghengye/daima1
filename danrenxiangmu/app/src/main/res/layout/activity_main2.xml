@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    >
+
+    <RelativeLayout
+        android:layout_width="750px"
+        android:layout_height="128px">
+
+        <ImageView
+            android:id="@+id/mImg2"
+            android:layout_width="13px"
+            android:layout_height="24px"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="70px"
+            android:src="@mipmap/nav_btn_back" />
+
+        <TextView
+            android:layout_width="61px"
+            android:layout_height="30px"
+            android:layout_marginLeft="344px"
+            android:layout_marginTop="71px"
+            android:text="登陆"
+            android:textSize="32px" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginLeft="307px"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="130px"
+            android:layout_height="140px"
+            android:layout_marginTop="187px"
+            android:src="@mipmap/icon_head" />
+
+        <TextView
+            android:id="@+id/m2Phone"
+            android:layout_marginTop="351px"
+            android:layout_width="173px"
+            android:layout_height="25px"
+            android:layout_centerHorizontal="true"
+            android:text="18811112233"
+            android:textSize="26px" />
+    </RelativeLayout>
+
+    <EditText
+
+        android:id="@+id/m2Psw"
+        android:layout_width="466px"
+        android:layout_height="31px"
+        android:hint="请输入手机号"
+        android:textColorHint="#ffdbdbdb"
+        android:textSize="32px"
+        android:background="@null"
+        android:numeric="integer"
+        android:maxLength="11"
+        android:layout_marginTop="465px"
+        android:layout_marginLeft="54px"/>
+
+    <View
+        android:layout_width="638px"
+        android:layout_height="2px"
+        android:background="#DADADA"
+        android:layout_marginLeft="57px"
+        android:layout_marginTop="570px"
+        />
+
+    <ImageView
+        android:id="@+id/delete"
+        android:visibility="gone"
+        android:layout_marginLeft="585px"
+        android:layout_marginTop="466px"
+        android:src="@mipmap/input_btn_delete"
+        android:layout_width="28px"
+        android:layout_height="28px" />
+
+    <ImageView
+        android:id="@+id/see_img"
+        android:visibility="gone"
+        android:layout_width="32px"
+        android:layout_height="18px"
+        android:layout_marginLeft="663px"
+        android:layout_marginTop="471px"
+        android:src="@mipmap/input_btn_see" />
+
+    <ImageView
+        android:id="@+id/nosee_img"
+        android:layout_width="32px"
+        android:layout_height="18px"
+        android:layout_marginLeft="663px"
+        android:layout_marginTop="471px"
+        android:src="@mipmap/btn_nosee" />
+
+    <TextView
+        android:id="@+id/mDuanXin"
+        android:layout_width="190px"
+        android:layout_height="23px"
+        android:textSize="24px"
+        android:layout_marginLeft="56px"
+        android:layout_marginTop="597px"
+        android:text="使用短信验证登陆" />
+
+    <TextView
+        android:id="@+id/mChongZhi"
+        android:layout_width="93px"
+        android:layout_height="23px"
+        android:textSize="24px"
+        android:layout_marginLeft="599px"
+        android:layout_marginTop="597px"
+        android:text="重置密码" />
+
+    <Button
+        android:id="@+id/m2Button"
+        android:layout_width="634px"
+        android:layout_height="90px"
+        android:layout_marginLeft="58px"
+        android:layout_marginTop="686px"
+        android:text="登陆"
+        android:background="@drawable/anniu"
+        android:textSize="34px"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/aa"
+        android:visibility="gone"
+        android:layout_width="634px"
+        android:layout_height="90px"
+        android:layout_marginLeft="58px"
+        android:layout_marginTop="686px"
+        android:text="登陆"
+        android:background="@drawable/anniu"
+        android:textSize="34px"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

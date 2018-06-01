@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF">
+
+    <RelativeLayout
+        android:id="@+id/relative_bar"
+        android:layout_width="match_parent"
+        android:layout_height="128px">
+
+        <ImageView
+            android:id="@+id/mImg3"
+            android:layout_width="13px"
+            android:layout_height="24px"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="70px"
+            android:src="@mipmap/nav_btn_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="344px"
+            android:layout_marginTop="71px"
+            android:text="登录"
+            android:textSize="32px" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:layout_width="331px"
+            android:layout_height="45px"
+            android:layout_marginLeft="60px"
+            android:layout_marginTop="262px"
+            android:text="输入短信验证码"
+            android:textSize="48px" />
+
+        <TextView
+            android:id="@+id/phoneNum_tv"
+            android:layout_width="427px"
+            android:layout_height="29px"
+            android:layout_marginLeft="59px"
+            android:layout_marginTop="338px"
+            android:text="短信验证码发送至188 1122 2233"
+            android:textSize="28px" />
+
+        <RelativeLayout
+            android:id="@+id/relative_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="541px">
+
+            <EditText
+                android:id="@+id/one"
+                android:layout_width="100px"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60px"
+                android:gravity="center"
+                android:maxLength="1"
+                android:saveEnabled="true"
+                android:textSize="40px"
+                android:numeric="integer"
+                android:theme="@style/MyEditText" />
+
+            <EditText
+                android:id="@+id/er"
+                android:layout_width="100px"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="220px"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="40px"
+                android:numeric="integer"
+                android:theme="@style/MyEditText" />
+
+            <EditText
+                android:id="@+id/san"
+                android:layout_width="100px"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="380px"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="40px"
+                android:numeric="integer"
+                android:theme="@style/MyEditText" />
+
+            <EditText
+                android:id="@+id/si"
+                android:layout_width="100px"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="540px"
+                android:gravity="center"
+                android:maxLength="1"
+                android:numeric="integer"
+                android:textSize="40px"
+                android:theme="@style/MyEditText" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/chongXin"
+            android:layout_width="165px"
+            android:layout_height="23px"
+            android:layout_below="@+id/relative_edit"
+            android:layout_marginLeft="57px"
+            android:layout_marginTop="50px"
+            android:text="重新获取验证码"
+            android:textSize="24px" />
+
+        <TextView
+            android:id="@+id/mima"
+            android:layout_width="165px"
+            android:layout_height="23px"
+            android:layout_below="@+id/relative_edit"
+            android:layout_marginLeft="498px"
+            android:layout_marginRight="110px"
+            android:layout_marginTop="50px"
+            android:text="使用密码登录"
+            android:textSize="24px" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
